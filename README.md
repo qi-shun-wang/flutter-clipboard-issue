@@ -1,16 +1,21 @@
-# clipboardissue
+# Original Issue:
 
-A new Flutter project.
+[Can't paste into TextField when copying from Samsung Notes, MS Word and MS Excel on Android](https://github.com/flutter/flutter/issues/74320)
 
-## Getting Started
+# How to improve this issue?
 
-This project is a starting point for a Flutter application.
+Provide a PlatformPlugin with customize PlatformChannel.
+# Result:
+ <a href="./result.gif">
+  <h1 align="center">
+    <picture>
+      <source media="(prefers-color-scheme: dark)">
+      <img alt="Flutter" src="./result.gif">
+    </picture>
+  </h1>
+</a>
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+# Will there be other consequences if I change the PlatformChannel's behavior like this?
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Please, feel free to give a feedback here if you have any idea.
